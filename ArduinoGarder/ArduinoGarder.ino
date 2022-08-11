@@ -36,6 +36,10 @@ void setup() {
   pinMode(RELAY2, OUTPUT);
   pinMode(RELAY3, OUTPUT);
   pinMode(RELAY4, OUTPUT);
+  digitalWrite(RELAY1, LOW);
+  digitalWrite(RELAY2, LOW);
+  digitalWrite(RELAY3, LOW);
+  digitalWrite(RELAY4, LOW);
   pinMode(13, OUTPUT);
 }
 
@@ -58,7 +62,7 @@ void loop() {
   if(S1_value < 500){
     digitalWrite(RELAY1, HIGH);
   }else{
-    digitalWrite(RELAY, LOW);
+    digitalWrite(RELAY1, LOW);
   }
   if(S2_value < 500){
     digitalWrite(RELAY2, HIGH);
