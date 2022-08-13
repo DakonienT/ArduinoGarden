@@ -4,7 +4,7 @@
 *eMail=
 *
 *Project=NanoPCB
-*Date=20:21:42
+*Date=23:45:53
 *CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
 *
 *
@@ -13,16 +13,26 @@
 *Rotation in degree (0-360, math. pos.)
 *
 *No;Value;Package;X;Y;Rotation;Side;Name
-1;;THT;36.6889;-32.9622;0;Bottom;Sensor 2
-2;;;16.3689;-48.2022;0;Bottom;Hole4
-3;;;16.3689;-25.3422;0;Bottom;Hole3
-4;;;16.3689;-30.4138;0;Bottom;Arduino nano
-5;;THT;40.3188;-45.6432;0;Bottom;J1
-6;;lte-302;3.28789;-39.3122;90;Bottom;D1
-7;;THT;31.6089;-32.9622;0;Bottom;Sensor 1
-8;;THT;41.7689;-32.9622;0;Bottom;Sensor 3
-9;;THT;46.8489;-32.9622;0;Bottom;Sensor 4
-10;220;0805 [SMD];3.66889;-31.9372;90;Top;R1
-11;;;59.5489;-5.02222;0;Bottom;Hole2
-12;;;59.5489;-48.2022;0;Bottom;Hole1
-13;;THT;59.5489;-34.2322;0;Bottom;Relays
+1;;THT;46.2801;-33.8984;0;Bottom;S4
+2;;;48.8201;-5.95841;0;Top;Pad9
+3;;THT;36.1201;-33.8984;0;Bottom;S2
+4;;THT;52.45;-46.5794;0;Bottom;+5V
+5;;;38.6601;-54.2184;0;Top;Pad4
+6;;;46.0514;-1.76386;0;Top;TXT2
+7;;THT;41.2001;-33.8984;0;Bottom;S3
+8;;;38.6601;-5.95841;0;Top;Pad8
+9;;;28.5001;-54.2184;0;Top;
+10;;;15.8001;-31.35;0;Bottom;Arduino nano
+11;;;58.9801;-5.95841;0;Bottom;Hole2
+12;;;43.7401;-54.2184;0;Top;Pad6
+13;220;0805 [SMD];3.10008;-32.8734;90;Top;R1
+14;;;53.9001;-5.95841;0;Top;Pad11
+15;;;58.9801;-54.2184;0;Bottom;Hole1
+16;;THT;58.9801;-35.1684;0;Bottom;Relays
+17;;lte-302;2.71909;-40.2484;90;Bottom;D1
+18;;;15.8001;-26.2784;0;Bottom;Hole3
+19;;;36.1863;-58.6694;0;Top;TXT1
+20;;THT;31.0401;-33.8984;0;Bottom;S1
+21;;;43.7401;-5.95841;0;Top;Pad10
+22;;;8.18009;-54.2184;0;Bottom;Hole4
+23;;;33.5801;-54.2184;0;Top;Pad2
